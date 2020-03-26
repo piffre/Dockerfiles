@@ -17,8 +17,8 @@ RUN wget -q  https://github.com/grails/grails-core/releases/download/v$GRAILS_VE
 ENV GRAILS_HOME /usr/lib/jvm/grails
 ENV PATH $GRAILS_HOME/bin:$PATH
 
-# Create App Directory
+# Create app directory
 RUN mkdir /app
 
-# Set Workdir
+# Set workdir
 WORKDIR /app
