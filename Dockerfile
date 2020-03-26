@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-# Set Grails version (default: 3.2.8; min: 3.0.0; max: 3.2.8).
+# Set Grails version 
 ENV GRAILS_VERSION 2.4.2
 
 # Update
